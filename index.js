@@ -7,12 +7,8 @@ const items = [
 ]
 
 app.get('/', (req, res) => {
-    return res.send('He')
+    return res.send('Hel')
 })
-
-// function getItem(){
-//     return items
-// }
 
 app.get('/item', (req, res) => {
     return res.json(items)
