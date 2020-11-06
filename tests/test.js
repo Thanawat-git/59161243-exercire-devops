@@ -10,7 +10,7 @@ describe('Validate setting the test', () => {
 
 describe('GET "/"', () => {
     it('respond with Hello!'), (done) => {
-        request(app).get('/').expect('Hello!', done)
+        request(app).get('/').expect('Hello', done)
     }
 })
 
