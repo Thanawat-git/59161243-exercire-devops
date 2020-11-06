@@ -1,7 +1,6 @@
 {
   "name": "github-action",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha ./tests/* --exit"
@@ -16,5 +15,17 @@
   "devDependencies": {
     "mocha": "^8.2.1",
     "supertest": "^5.0.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thanawat-git/59161243-exercire-devops.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Thanawat-git/59161243-exercire-devops/issues"
+  },
+  "homepage": "https://github.com/Thanawat-git/59161243-exercire-devops#readme",
+  "description": ""
 }
