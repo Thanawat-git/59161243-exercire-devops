@@ -4,7 +4,7 @@ const app = require('../index.js')
 
 describe('Validate setting the test', () => {
     it('should be ok', () => {
-        assert.ok(true)
+        assert.ok(false)
     })
 })
 
