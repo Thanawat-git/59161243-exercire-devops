@@ -10,15 +10,15 @@ describe('Validate setting the test', () => {
 
 describe('GET "/"', () => {
     it('respond with Hello!'), (done) => {
-        request(app).get('/').expect('Hello', done)
+        request(app).get('/').expect('Hello!', done)
     }
 })
 
-describe('GET "/item"', ()=> {
-    it('respond Items'), (done) => {
-        request(app).get('/item'.expect(done).toBeInstanceOf(Array))
-    }
-})
+// describe('GET "/item"', ()=> {
+//     it('respond Items'), (done) => {
+//         request(app).get('/item'.expect(done).toBeInstanceOf(Array))
+//     }
+// })
 
 // describe('GET "/item"', ()=> {
 //     it('respond Items'), (done) => {

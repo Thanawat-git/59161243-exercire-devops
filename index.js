@@ -7,7 +7,7 @@ const items = [
 ]
 
 app.get('/', (req, res) => {
-    return res.send('Hello!')
+    return res.send('He')
 })
 
 // function getItem(){
