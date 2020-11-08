@@ -15,7 +15,7 @@ describe('Validate setting the test', () => {
 // })
 
 describe('GET "/item"', ()=>{
-    it('Somthing', (done)=>{
+    it('should be item same want', (done)=>{
         let want = [
             {no: '1', name: 'Iphone 12 Pro Max'},
             {no: '2', name: 'Iphone 12'},
