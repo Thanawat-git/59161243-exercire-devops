@@ -19,7 +19,7 @@ describe('GET "/item"', ()=>{
         let want = [
             {no: '1', name: 'Iphone 12 Pro Max'},
             {no: '2', name: 'Iphone 12'},
-            {no: '3', name: 'Iphone 11'}
+            {no: '3', name: 'Iphone '}
         ]
 
         request(app).get('/item').expect(want, done)
